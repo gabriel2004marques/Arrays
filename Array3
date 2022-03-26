@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    
+
+</head>
+
+<body>
+
+    <script>
+
+    alert("Em uma aventura , os aventureiros Drofo e Torper viajavam por um incrível mundo chamado Proa em busca de riquezas")
+    alert("No meio de uma das aventuras , o rei Gabriel do reino Equipe 3 , chamou os dois aventureiros para uma missão")
+    alert("O rei disse que o rei Jaílson do reino Equipe 2 havia roubado o seu bolo de cenoura com cobertura de brigadeiro")
+    alert("O rei Gabriel prometeu aos dois heróis que se eles recuperassem o bolo , ele daria muitas riquezas a eles")
+    alert("Os heróis então sem hesitar , partiram em direção ao reino Equipe 2")
+    alert("No início da aventura , Drofo possuia em seu inventário um anel da invisibilidade, dois pares de botas mágicas, uma poção do sono e duas poções da inocência")
+    alert("Já topper possuia em seu inventário uma capa da invisibilidade, uma pedra do despertar,  uma varinha das varinhas, uma poção da inocência e duas poções da mentira, poção anti-inteligência")
+    alert("No meio da aventura , Torper consumiu uma das poções da mentira, perdeu sua pedra e ganhou um par de botar mágicas do Drofo, achou um escudo mágico e uma espada mágica. ")
+    alert("Já Drofo ganhou mais uma bota mágica, usou sua poção do sono e consumiu a poção anti-inteligência do Torper, encontrou um ovo de dragão e uma coxinha.")
+    var drofo = ["Anel da Invisibilidade " , "Par de botas mágicas " , "Par de botas mágicas " , "Poção do sono " , "Poção da inocência " , "Poção da inocência "];
+    var torper = ["Capa da invisibilidade" , " Pedra do despertar" , " Varinha das varinhas" , " Poção da inocência" , " Poção da mentira" , " Poção da mentira" , " Poção da anti-inteligência"];
+    torper.splice(6 , 2 , "Par de botas mágicas " , "Escudo mágico " , "Espada mágica")
+    torper.splice(1 , 1)
+    drofo.splice(2 , 2 , "Botas mágicas" , "Ovo de dragão" , "Coxinha que deve ser chamada de coxinha");
+    alert("Então , após muitos desafios , os dois chegaram no castelo do rei Jaílson com os seguintes intens nos seus inventários :")
+    document.write("Drofo : "+drofo)
+    document.write("Torper : "+torper)
+    alert("Então após uma grande luta con o rei Jaílson e seus servos conhecidos como Camisa10 , Drofo e Torper derrotaram o rei e recuperaram o bolo de cenoura com cobertura de chocolate do rei Gabriel.")
+    alert("O rei após saber disso , cumpriu sua promessa e deu várias riquezas a Drofo e Torper , que após ficarem ricos , decidiram se aposentar de suas aventuras , pois já estavam praticamente destruídos depois de tanto apanhar do rei Jaílson e seus servos")
+        </script>
+    
+</body>
+</html>
