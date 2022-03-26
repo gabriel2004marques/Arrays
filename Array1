@@ -1,0 +1,26 @@
+<html>
+
+     <head>
+
+        <title>Array1</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+     </head>
+
+     <body>
+
+        <script>
+
+         var contagem = 0;
+         var x = [];
+         while(contagem < 21) {
+            x.push(contagem);
+            contagem++;
+         }
+        alert(x);
+
+        </script>
+
+    </body>
+
+</html>
