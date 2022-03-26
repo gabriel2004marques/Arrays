@@ -1,0 +1,36 @@
+<html>
+
+     <head>
+
+        <title>50números</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+     </head>
+
+    <body>
+
+        <script>
+
+            alert("Eae usuário , como você está ? Espero que esteja bem ! ");
+            alert("Hoje faremos um site onde você irá escrever 12 números e o site dirá se esses números são maiores ou menores que 50 , vamos lá ?");
+            var mais50 = [];
+            var menos50 = [];
+            var contagem = 0;
+
+            while(contagem < 12) {
+                var numeros2 = parseFloat(prompt("Escreva um número"));
+                if(numeros2 > 50) {
+                    mais50.push(numeros2);
+                } else if (numeros2 < 50) {
+                    menos50.push(numeros2);
+                }
+                contagem++;
+            }
+            alert("Os números "+mais50+" são maiores que 50");
+            alert("Os números "+menos50+" são menores que 50");
+          
+        </script>
+
+    </body>
+
+</html>
