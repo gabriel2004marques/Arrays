@@ -22,7 +22,7 @@
     alert("O rei Gabriel prometeu aos dois heróis que se eles recuperassem o bolo , ele daria muitas riquezas a eles")
     alert("Os heróis então sem hesitar , partiram em direção ao reino Equipe 2")
     alert("No início da aventura , Drofo possuia em seu inventário um anel da invisibilidade, dois pares de botas mágicas, uma poção do sono e duas poções da inocência")
-    alert("Já topper possuia em seu inventário uma capa da invisibilidade, uma pedra do despertar,  uma varinha das varinhas, uma poção da inocência e duas poções da mentira, poção anti-inteligência")
+    alert("Já Topper possuia em seu inventário uma capa da invisibilidade, uma pedra do despertar,  uma varinha das varinhas, uma poção da inocência , duas poções da mentira e uma poção anti-inteligência")
     alert("No meio da aventura , Torper consumiu uma das poções da mentira, perdeu sua pedra e ganhou um par de botar mágicas do Drofo, achou um escudo mágico e uma espada mágica. ")
     alert("Já Drofo ganhou mais uma bota mágica, usou sua poção do sono e consumiu a poção anti-inteligência do Torper, encontrou um ovo de dragão e uma coxinha.")
     var drofo = ["Anel da Invisibilidade " , "Par de botas mágicas " , "Par de botas mágicas " , "Poção do sono " , "Poção da inocência " , "Poção da inocência "];
@@ -31,8 +31,8 @@
     torper.splice(1 , 1)
     drofo.splice(2 , 2 , "Botas mágicas" , "Ovo de dragão" , "Coxinha que deve ser chamada de coxinha");
     alert("Então , após muitos desafios , os dois chegaram no castelo do rei Jaílson com os seguintes intens nos seus inventários :")
-    document.write("Drofo : "+drofo)
-    document.write("Torper : "+torper)
+    alert("Drofo : "+drofo)
+    alert("Torper : "+torper)
     alert("Então após uma grande luta con o rei Jaílson e seus servos conhecidos como Camisa10 , Drofo e Torper derrotaram o rei e recuperaram o bolo de cenoura com cobertura de chocolate do rei Gabriel.")
     alert("O rei após saber disso , cumpriu sua promessa e deu várias riquezas a Drofo e Torper , que após ficarem ricos , decidiram se aposentar de suas aventuras , pois já estavam praticamente destruídos depois de tanto apanhar do rei Jaílson e seus servos")
         </script>
